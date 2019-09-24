@@ -151,7 +151,8 @@ export default class GridItem extends React.Component<Props, State> {
     // Current position of a dropping element
     droppingPosition: PropTypes.shape({
       x: PropTypes.number.isRequired,
-      y: PropTypes.number.isRequired
+      y: PropTypes.number.isRequired,
+      e: PropTypes.any
     })
   };
 
